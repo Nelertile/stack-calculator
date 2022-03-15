@@ -10,6 +10,7 @@
     "global": "npm i -g && mcstack",
     "publish-package": "npm run build && npm publish"
   },
+  "bin": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NotToxicDev/stack-calculator.git"
@@ -23,7 +24,8 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "fs": "^0.0.1-security",
-    "inquirer": "^8.2.1"
+    "inquirer": "^8.2.1",
+    "stack-calculator": "file:"
   },
   "devDependencies": {
     "@types/inquirer": "^8.2.0",
