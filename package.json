@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/NotToxicDev/stack-calculator#readme",
   "dependencies": {
-    "inquirer": "^8.2.1",
+    "inquirer": "^8.2.1"
   },
   "devDependencies": {
     "@types/inquirer": "^8.2.0",
