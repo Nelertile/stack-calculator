@@ -15,3 +15,5 @@ First, we have to install the package globally.<br>
 
 Now, just run it with:<br>
 `npx stack-calculator`
+
+# [Web version](https://mcstackcalc.netlify.app/)
