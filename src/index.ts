@@ -26,7 +26,16 @@ function actions(answers: any) {
         if(answers.action[i] == 'Calculate Shulkers') calcshulker = true;
     }
 
-    let stack: number = answers.ItemAmount / 64
-    let stackout: number = Math.ceil(stack)
-    console.log(stackout)
+    const stack: number = Math.ceil(answers.ItemAmount / 64)
+    const shulker: number = Math.ceil(stack / 27)
+    
+    let out: string = `-- Output --\nStack: ${stack}\n-- Output --`;
+
+    if(compact && calcshulker) {
+        if((Math.ceil(stack / 27)) == (Math.round(stack / 27))) out =  `-- Output --\nShulker: ${shulker}\n-- Output --`;
+    }
+    else if(calcshulker) out = `-- Output --\nStack: ${stack}\nShulker: ${shulker}\n-- Output --`;
+    
+
+    console.log(out)
 }
