@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "mcstack": "node dist/index.js",
     "start": "npm run build && npm run global",
