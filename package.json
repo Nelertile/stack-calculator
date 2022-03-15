@@ -1,6 +1,6 @@
 {
   "name": "stack-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,7 @@
   },
   "homepage": "https://github.com/NotToxicDev/stack-calculator#readme",
   "dependencies": {
-    "chalk": "^5.0.1",
-    "fs": "^0.0.1-security",
     "inquirer": "^8.2.1",
-    "stack-calculator": "file:"
   },
   "devDependencies": {
     "@types/inquirer": "^8.2.0",
